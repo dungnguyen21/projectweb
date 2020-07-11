@@ -184,6 +184,23 @@ input , button {
     height: 50px;
 }
 
+#inputSearchLeft{
+    width: 250px;
+}
+.searchLeft , .titleSelect{
+    margin-top: 50px;
+}
+.contentTwoTop{
+    display: flex;
+    justify-content: space-around;
+}
+.titleRight{
+    display: contents;
+}
+.titleLeft h3{
+    margin-left: -70px;
+}
+
 .twoRowOne {
     display: flex;
 }
@@ -206,7 +223,17 @@ input , button {
     margin-right: 21px;
     margin-top: 21px;
 }
-
+.threeTopLeft{
+    font-size: 40px;
+}
+.contentThreeTop{
+    display: flex;
+    justify-content: space-between;
+}
+.threeTopRight{
+    margin-top: 55px;
+    margin-right: 20px;
+}
 .botWed {
     width: 100%;
 }
