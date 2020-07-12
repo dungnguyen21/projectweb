@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bài Tập Web</title>
+    <title>Trường THPT Vạn Xuân</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 </head>
@@ -12,49 +12,45 @@
     <header class="header">
         <div id="headerTop">
             <div class="logo">
-                <img src="images/logolambo.jpg" alt="" width="250px" height="100px">
+                <img src="images/logovanxuan.jpg" alt="" width="200px" height="100px">
             </div>
             <div class="menu">
                 <ul class="menuHeader">
-                   <li > <a href="#">Lĩnh vực</a> 
-                        
-                   </li>
-                   <li> <a href="#">Thiết kế</a> </li>
-                   <li> <a href="#">Hướng dẫn</a> </li>
-                   <li> <a href="#">Chính Sách</a> </li>
-                   <li> <a href="#">Tin tức</a> </li>
+                   <li > <a href="index.html">Trang Chủ</a></li>
+                   <li> <a href="gioithieu.html">Giới Thiệu</a> </li>
+                   <li> <a href="hoatdong.html">Hoạt Động</a> </li>
+                   <li> <a href="#">Liên Hệ</a> </li>
+                   <li> <a href="olympia.html">Tin tức</a> </li>
+                   <li> <a href="gopy.html">Góp ý</a> </li>
                 </ul>
             </div>
             <div class="login">
                 <div class="loginLeft">
-                    <a href="#">
+                    <a href="login.html">
                         <i class="fa fa-sign-in" aria-hidden="true"></i> Đăng Nhập
                     </a>
                 </div>
                 <div class="loginContact">
-                    <a href="#"> 1900.633313 </a>
+                    <a href="#"><i class="fa fa-phone-square" aria-hidden="true"></i> 1900.9999 </a>
                 </div>
             </div>
         </div>
         <div class="headerBottom">
             <div class="list">
-                <a href="#"> <i class="fa fa-bars" aria-hidden="true"></i><b>    Danh mục sản phẩm</b> </a>
+                <a href="#"><i class="fa fa-graduation-cap" aria-hidden="true"></i>  Thông báo </a>
+            </div>
+            <div class="notification">
+               <marquee behavior="scroll" direction="left"> Thông báo: Tuyển sinh vào lớp 10 và hướng dẫn tuyển sinh vào lớp 10 năm học 2020-2021</marquee>
             </div>
            <div class="headerRight">
                 <div class="search">
                     <form id="searchFomr" action="">
-                            <input id="searchInput" type="text" name="search" placeholder="Tìm kiếm sản phẩm">
+                            <input id="searchInput" type="text" name="search" placeholder="Tìm kiếm thông tin...">
                             <button id="searchButton">
                                 <i class="fa fa-search" aria-hidden="true"></i>
                             </button>
                     </form>
-                </div>
-                <div class="order">
-                    <a class="textOrderPrint"  href="#"> Giỏ hàng </a>
-                </div>
-                <div class="print">
-                        <a class="textOrderPrint" href="#"> In ngay </a>
-                </div>
+               
            </div>
         </div>
     
@@ -68,13 +64,13 @@
                     <a href="#"> Trang chủ  / </a>
                 </li>
                 <li>
-                    <a href="#"> <span id="design">Thiết kế</span> </a>
+                    <a href="#"> <span id="design">THPT Vạn Xuân</span> </a>
                 </li>   
             </ul>
         </div>
         <div class="titleProduct">
             <h2 >
-                PHIÊN BẢN <span id="headTitle">GIỚI HẠN</span>
+                CÁC <span id="headTitle"> HOẠT ĐỘNG </span>
             </h2>
         </div>
         <!--  contentOne  -->
@@ -82,31 +78,45 @@
             <div class="rowOne">
                 <div class="productOne">
                     <div class="productOneImg">
-                        <a href="#"><img src="images/2.jpg" alt="siêu xe" class="sieu-xe" >
-                            <div class="oneImgTitle">
-
-                            </div>
+                        <a href="hoatdong.html"><img src="images/hdvanxuan.jpg" alt="siêu xe" class="sieu-xe" >
+                            
+                                <div id="title1">
+                                    <h3 id="xem"> Xem ngay ...   <i class="fa fa-arrow-right" aria-hidden="true"></i></h3>
+                                </div>
+                            
                         </a>
                     </div>
                     
                 </div>
                 <div class="productTwo">
-                    <a href="#"><img src="images/2.jpg" alt="siêu xe" class="sieu-xe"></a>
+                    <a href="hoatdong.html"><img src="images/hdvanxuan1.jpg" alt="siêu xe" class="sieu-xe">
+                        <div id="title1">
+                            <h3 id="xem"> Xem ngay ...   <i class="fa fa-arrow-right" aria-hidden="true"></i></h3>
+                        </div>
+                    </a>
                 </div>
                 <div class="productThree">
-                    <a href="#"><img src="images/2.jpg" alt="siêu xe"class="sieu-xe"></a>
+                    <a href="hoatdong.html"><img src="images/hdvanxuan2.jpg" alt="siêu xe"class="sieu-xe">
+                        <div id="title1">
+                            <h3 id="xem"> Xem ngay ...   <i class="fa fa-arrow-right" aria-hidden="true"></i></h3>
+                        </div>
+                    </a>
+                </div>
+               
+            </div>
+            <div class="news">
+                <div class="newsTop">
+                    <marquee behavior="scroll" direction="left"> <i class="fa fa-newspaper-o" aria-hidden="true"></i> Bảng Tin</marquee>   
+                </div>
+                <div class="newsBot">
+                    <ul>
+                        <li><a href="tuyensinh.html">Tuyển sinh vào 10 năm học 2020-2021</a></li>
+                        <li><a href="">Trường THPT tham gia Olympia</a></li>
+                        <li><a href="">Học sinh Vạn Xuân - Hoài Đức tham gia hội thao</a></li>
+                        <li><a href="">Trường THPT tham gia giai điệu tuổi hồng Huyện Hoài Đức</a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="rowTwo">
-                <div class="productFour">
-                    <a href="#"><img src="images/2.jpg" alt="siêu xe"class="sieu-xe"></a>
-                </div>
-                <div class="productFive">
-                    <a href="#"><img src="images/2.jpg" alt="siêu xe" class="sieu-xe"></a>
-                </div>
-                <div class="productSix">
-                    <a href="#"><img src="images/2.jpg" alt="siêu xe" class="sieu-xe"></a>
-                </div>
             </div>
             
         </div>
@@ -115,44 +125,46 @@
         <div class="contentTwo">
             <div class="contentTwoTop">
                 <div class="titleLeft">
-                    <h3> CÁC MẪU XE <span id="styleTitle">MỚI NHẤT</span> </h3>
+                    <h3> THÔNG TIN <span id="styleTitle">MỚI NHẤT</span> </h3>
                 </div>
                 <div class="titleRight">
                     
                         <form class="searchLeft" action="">
                             <input type="text" name="click" id="inputSearchLeft">
-                            <button><i class="fa fa-search" aria-hidden="true"></i></button>
+                            <button id="buttonSearch"><i class="fa fa-search" aria-hidden="true"></i></button>
                         </form>
                     
                     <div class="titleSelect">
                         <select class="seclectRight" name="" id="">
-                            <option value="Lọc theo gói thiết kế 1"> Lọc theo gói thiết kế 1 </option>
-                            <option value="Lọc theo gói thiết kế 2">Lọc theo gói thiết kế 2</option>
-                            <option value="Lọc theo gói thiết kế 3">Lọc theo gói thiết kế 3</option>
+                            <option value="Lọc theo gói thiết kế 1"> Tuyển sinh</option>
+                            <option value="Lọc theo gói thiết kế 2"> Covid-19 </option>
+                            <option value="Lọc theo gói thiết kế 3"> Got-talen</option>
+                            <option value="Lọc theo gói thiết kế 3"> Đạt trường chuẩn </option>
                         </select>
                     </div>
                 </div>
             </div>
         </div>
-            <div class="contentTwoRow">
+        <div class="contentTwoRow">
                 <div class="twoRowOne">
                     <div class="twoProductOne">
                         <div class="twoProductImg">
-                            <a href="#"><img src="images/3.jpg" alt="siêu xe" class="sieu-xe"></a>
+                            <a href="tuyensinh.html"><img src="images/vanxuan1.jpg" alt="siêu xe"
+                                  width="300px" height="250px"></a>
                         </div>
                         <div class="twoProductTitle">
-                            <h3> MẪU XE LAMBORGHINI ...</h3>
+                            <a href="tuyensinh.html"><h3> Tuyển sinh ...</h3></a>
                             <div class="titleBottom">
-                                <a class="link" href="#"> Xem chi tiết  </a>
+                                <a class="link" href="tuyensinh.html"> Xem chi tiết  </a>
                             </div>
                         </div>
                     </div>
                     <div class="twoProductOne">
                         <div class="twoProductImg">
-                            <a href="#"><img src="images/3.jpg" alt="siêu xe" class="sieu-xe"></a>
+                            <a href="#"><img src="images/vanxuan2.jpg" alt="siêu xe"  width="300px" height="250px"></a>
                         </div>
                         <div class="twoProductTitle">
-                            <h3> MẪU XE LAMBORGHINI ...</h3>
+                            <a href="#"><h3> Đạt trường chuẩn...</h3></a>
                             <div class="titleBottom">
                                 <a class="link" href="#"> Xem chi tiết </a>
                             </div>
@@ -160,10 +172,10 @@
                     </div>
                     <div class="twoProductOne">
                         <div class="twoProductImg">
-                            <a href="#"><img src="images/3.jpg" alt="siêu xe" class="sieu-xe"></a>
+                            <a href="#"><img src="images/vanxuan3.jpg" alt="siêu xe"  width="300px" height="250px"></a>
                         </div>
                         <div class="twoProductTitle">
-                            <h3> MẪU XE LAMBORGHINI ...</h3>
+                            <a href="#"><h3>Học sinh trở lại ...</h3></a>
                             <div class="titleBottom">
                                 <a  class="link" href="#"> Xem chi tiết </a>
                             </div>
@@ -171,154 +183,17 @@
                     </div>
                     <div class="twoProductOne">
                         <div class="twoProductImg">
-                            <a href="#"><img src="images/3.jpg" alt="siêu xe" class="sieu-xe"></a>
+                            <a href="#"><img src="images/vanxuan4.jpg" alt="siêu xe"  width="300px" height="250px"></a>
                         </div>
                         <div class="twoProductTitle">
-                            <h3> MẪU XE LAMBORGHINI ...</h3>
+                            <a href="#"><h3> Một góc nhỏ ...</h3></a>
                             <div class="titleBottom">
                                 <a class="link" href="#"> Xem chi tiết </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="twoRowOne">
-                    <div class="twoProductOne">
-                        <div class="twoProductImg">
-                            <a href="#"><img src="images/3.jpg" alt="siêu xe" class="sieu-xe"></a>
-                        </div>
-                        <div class="twoProductTitle">
-                            <h3> MẪU XE LAMBORGHINI ...</h3>
-                            <div class="titleBottom">
-                                <a class="link" href="#"> Xem chi tiết </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="twoProductOne">
-                        <div class="twoProductImg">
-                            <a href="#"><img src="images/3.jpg" alt="siêu xe" class="sieu-xe"></a>
-                        </div>
-                        <div class="twoProductTitle">
-                            <h3> MẪU XE LAMBORGHINI ...</h3>
-                            <div class="titleBottom">
-                                <a class="link" href="#"> Xem chi tiết </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="twoProductOne">
-                        <div class="twoProductImg">
-                            <a href="#"><img src="images/3.jpg" alt="siêu xe" class="sieu-xe"></a>
-                        </div>
-                        <div class="twoProductTitle">
-                            <h3> MẪU XE LAMBORGHINI ...</h3>
-                            <div class="titleBottom">
-                                <a class="link" href="#"> Xem chi tiết </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="twoProductOne">
-                        <div class="twoProductImg">
-                            <a href="#"><img src="images/3.jpg" alt="siêu xe" class="sieu-xe"></a>
-                        </div>
-                        <div class="twoProductTitle">
-                            <h3> MẪU XE LAMBORGHINI ...</h3>
-                            <div class="titleBottom">
-                                <a class="link" href="#"> Xem chi tiết </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <class class="twoRowOne">
-                    <div class="twoProductOne">
-                        <div class="twoProductImg">
-                            <a href="#"><img src="images/3.jpg" alt="siêu xe" class="sieu-xe"></a>
-                        </div>
-                        <div class="twoProductTitle">
-                            <h3> MẪU XE LAMBORGHINI ...</h3>
-                            <div class="titleBottom">
-                                <a class="link" href="#"> Xem chi tiết </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="twoProductOne">
-                        <div class="twoProductImg">
-                            <a href="#"><img src="images/3.jpg" alt="siêu xe" class="sieu-xe"></a>
-                        </div>
-                        <div class="twoProductTitle">
-                            <h3> MẪU XE LAMBORGHINI ...</h3>
-                            <div class="titleBottom">
-                                <a class="link" href="#">Xem chi tiết </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="twoProductOne">
-                        <div class="twoProductImg">
-                            <a href="#"><img src="images/3.jpg" alt="siêu xe" class="sieu-xe"></a>
-                        </div>
-                        <div class="twoProductTitle">
-                            <h3> MẪU XE LAMBORGHINI ...</h3>
-                            <div class="titleBottom">
-                                <a class="link" href="#"> Xem chi tiết </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="twoProductOne">
-                    <div class="twoProductImg">
-                        <a href="#"><img src="images/3.jpg" alt="siêu xe" class="sieu-xe"></a>
-                    </div>
-                    <div class="twoProductTitle">
-                        <h3> MẪU XE LAMBORGHINI ...</h3>
-                        <div class="titleBottom">
-                            <a class="link" href="#"> Xem chi tiết</a>
-                        </div>
-                    </div>
-                </div>
-                </class>
-            </div>
-            <div class="twoRowOne">
-                    <div class="twoProductOne">
-                        <div class="twoProductImg">
-                            <a href="#"><img src="images/3.jpg" alt="siêu xe" class="sieu-xe"></a>
-                        </div>
-                        <div class="twoProductTitle">
-                            <h3> MẪU XE LAMBORGHINI ...</h3>
-                            <div class="titleBottom">
-                                <a class="link" href="#"> Xem chi tiết </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="twoProductOne">
-                        <div class="twoProductImg">
-                            <a href="#"><img src="images/3.jpg" alt="siêu xe" class="sieu-xe"></a>
-                        </div>
-                        <div class="twoProductTitle">
-                            <h3> MẪU XE LAMBORGHINI ...</h3>
-                            <div class="titleBottom">
-                                <a class="link" href="#"> Xem chi tiết</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="twoProductOne">
-                        <div class="twoProductImg">
-                            <a href="#"><img src="images/3.jpg" alt="siêu xe" class="sieu-xe"></a>
-                        </div>
-                        <div class="twoProductTitle">
-                            <h3> MẪU XE LAMBORGHINI ...</h3>
-                            <div class="titleBottom">
-                                <a class="link" href="#"> Xem chi tiết </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="twoProductOne">
-                        <div class="twoProductImg">
-                            <a href="#"><img src="images/3.jpg" alt="siêu xe" class="sieu-xe"></a>
-                        </div>
-                        <div class="twoProductTitle">
-                            <h3> MẪU XE LAMBORGHINI ...</h3>
-                            <div class="titleBottom">
-                                <a class="link" href="#"> Xem chi tiết </a>
-                            </div>
-                        </div>
-                    </div>
+                
             </div>
         
         <!-- END contentTwo -->
@@ -327,11 +202,14 @@
         <div class="contentThree">
             <div class="contentThreeTop">
                 <div class="threeTopLeft">
-                    <h3> CÁC LOẠI <span id="styleTitle"> Xe Khác </span> </h3>
+                    <h3> TIN <span id="styleTitle"> TỨC </span> </h3>
+                </div>
+                <div class="notificationTwo">
+                   <marquee behavior="scroll" direction="left"> Hãy theo dõi để cập nhập những thông tin mới nhất</marquee>
                 </div>
                 <div class="threeTopRight">
                     <div class="contentSeclect">
-                         <select name="" id="">
+                         <select name="" id="selectThree">
                             <option value="#"> <a  href="#"> Xem nhiều hơn </a></option>
                          </select>
                     </div>
@@ -340,96 +218,50 @@
             <div class="threeRowOne">
                 <div class="threeProductOne">
                     <div class="threeProductImg">
-                        <a href="#"><img src="images/4.jpg" alt="siêu xe" class="sieu-xe"></a>
+                        <a href="olympia.html"><img src="images/thongtinva.jpg" alt="siêu xe" class="sieu-xe"></a>
                     </div>
                     <div class="threeproductTitle">
-                        <h3> Lorem ipsum dolor sit amet.</h3>
+                        <a href="olympia.html"><h3>Thầy và trò ... </h3></a>
                         <div class="titleDesign">
-                            <a class="link" href="#"> Xem chi tiết </a>
+                            <a class="link" href="olympia.html"> Xem chi tiết </a>
                         </div>
                     </div>
                 </div>
                 <div class="threeProductOne">
                     <div class="threeProductImg">
-                        <a href="#"><img src="images/4.jpg" alt="siêu xe" class="sieu-xe"></a>
+                        <a href="productthree.html"><img src="images/covid1.jpg" alt="siêu xe" class="sieu-xe"></a>
                     </div>
                     <div class="threeproductTitle">
-                        <h3> Lorem ipsum dolor sit amet.</h3>
+                        <a href="productthree.html"><h3> Vệ sinh sau Covid...</h3></a>
                         <div class="titleDesign">
-                            <a class="link" href="#"> Xem chi tiết </a>
+                            <a class="link" href="productthree.html"> Xem chi tiết </a>
                         </div>
                     </div>
                 </div>
                 <div class="threeProductOne">
                     <div class="threeProductImg">
-                        <a href="#"><img src="images/4.jpg" alt="siêu xe" class="sieu-xe"></a>
+                        <a href="productthree.html"><img src="images/talen1.jpg" alt="siêu xe" class="sieu-xe"></a>
                     </div>
                     <div class="threeproductTitle">
-                        <h3> Lorem ipsum dolor sit amet.</h3>
+                        <a href="productthree.html"><h3> Cuộc thi GotTalen...</h3></a>
                         <div class="titleDesign">
-                            <a class="link" href="#"> Xem chi tiết </a>
+                            <a class="link" href="productthree.html"> Xem chi tiết </a>
                         </div>
                     </div>
                 </div>
                 <div class="threeProductOne">
                     <div class="threeProductImg">
-                        <a href="#"><img src="images/4.jpg" alt="siêu xe" class="sieu-xe"></a>
+                        <a href="productthree.html"><img src="images/hoithi1.jpg" alt="siêu xe" class="sieu-xe"></a>
                     </div>
                     <div class="threeproductTitle">
-                        <h3> Lorem ipsum dolor sit amet.</h3>
+                        <a href="productthree.html"><h3> Tham gia cuộc thi...</h3></a>
                         <div class="titleDesign">
-                            <a class="link" href="#"> Xem chi tiết </a>
+                            <a class="link" href="productthree.html"> Xem chi tiết </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="threeRowOne">
-                <div class="threeProductOne">
-                    <div class="threeProductImg">
-                        <a href="#"><img src="images/4.jpg" alt="siêu xe" class="sieu-xe"></a>
-                    </div>
-                    <div class="threeproductTitle">
-                        <h3> Lorem ipsum dolor sit amet.</h3>
-                        <div class="titleDesign">
-                            <a class="link" href="#"> Xem chi tiết </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="threeProductOne">
-                    <div class="threeProductImg">
-                        <a href="#"><img src="images/4.jpg" alt="siêu xe" class="sieu-xe"></a>
-                    </div>
-                    <div class="threeproductTitle">
-                        <h3> Lorem ipsum dolor sit amet.</h3>
-                        <div class="titleDesign">
-                            <a class="link" href="#"> Xem chi tiết </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="threeProductOne">
-                    <div class="threeProductImg">
-                        <a href="#"><img src="images/4.jpg" alt="siêu xe" class="sieu-xe"></a>
-                    </div>
-                    <div class="threeproductTitle">
-                        <h3> Lorem ipsum dolor sit amet.</h3>
-                        <div class="titleDesign">
-                            <a class="link" href="#"> Xem chi tiết </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="threeProductOne">
-                    <div class="threeProductImg">
-                        <a href="#"><img src="images/4.jpg" alt="siêu xe" class="sieu-xe"></a>
-                    </div>
-                    <div class="threeproductTitle">
-                        <h3> Lorem ipsum dolor sit amet.</h3>
-                        <div class="titleDesign">
-                            <a class="link" href="#"> Xem chi tiết </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+           
     </div>
         <!-- END contentThree -->
     </div>
@@ -439,22 +271,22 @@
         <div class="footerTop">
             <div class="footerPrint">
                 <img src="" alt="">
-                <h3> In ấn </h3>
-                <p>In ấn, thiết kế mọi lúc mọi nơi</p>
+                <h3><i class="fa fa-male" aria-hidden="true"></i> Hoạt động</h3>
+                <p>Năng nổ và nhiệt tình</p>
             </div>
             <div class="footerCost">
                 <img src="" alt="">
-                <h3> Chi phí  </h3>
-                <p> Cạnh tranh nhất </p>
+                <h3><i class="fa fa-money" aria-hidden="true"></i> Chi phí  </h3>
+                <p> Vừa phải với học sinh </p>
             </div>
             <div class="footerDesign">
                 <img src="" alt="">
-                <h3> Thiết kế  </h3>
-                <p> Kho thư viện phong phú </p>
+                <h3><i class="fa fa-sort-alpha-asc" aria-hidden="true"></i> Thiết bị  </h3>
+                <p> Đầy đủ cho việc giảng dạy </p>
             </div>
             <div class="footerQuality">
                 <img src="" alt="">
-                <h3> Chất lượng  </h3>
+                <h3><i class="fa fa-thumbs-up" aria-hidden="true"></i> Chất lượng  </h3>
                 <p> Luôn luôn đảm bảo </p>
             </div>            
         </div>
@@ -462,7 +294,7 @@
             <div class="footerEmail">
                 <div class="footerContent">
                     <h1>
-                        ĐĂNG KÍ EMAIL NHẬN NGAY KHUYẾN MÃI 300.000 VNĐ
+                        ĐĂNG KÍ EMAIL NGAY ĐỂ CẬP NHẬT NHỮNG THÔNG TIN HOT !!!
                     </h1>                 
                 </div>
                 <div class="footerRegistration">
@@ -477,21 +309,23 @@
             <div class="footerContact">   
                     <div class="columnOne">
                         <div class="columnOneTop">
-                            <h3> CHĂM SÓC KHÁCH HÀNG </h3>
+                            <h3> PHẢN HỒI LIÊN HỆ </h3>
                         </div>
                         <div class="columnOneBottom">
                             <ul>
                                 <li> <a href="#">Hotline: <span class="span"> 1900.633313</span> </a> </li>
                                 <li> <a href="#"> CSKH: <span class="span">0901.633.313</span> </a>  </li>
-                                <li> <a href="#"> Email: <span class="spanAqua">sale@printgo.vn</span> </a> </li>
-                                <li> <a href="#"> Hướng dẫn in ấn</a>  </li>
-                                <li> <a href="#">Hướng dẫn thanh toán</a> </li>
+                                <li> <a href="#"> Email: <span class="spanAqua">thptvanxuan.edu.vn</span> </a> </li>
+                                <li> <a href="#"> Giải đáp thắc mắc</a>  </li>
+                                <li> <a href="#">Hướng dẫn đăng kí tài khoản
+
+                                </a> </li>
                             </ul>
                         </div>
                     </div>
                     <div class="columnTwo">
                         <div class="columnTwoTop">
-                            <h3> VỀ PRINTGO </h3>
+                            <h3> TRƯỜNG THPT VẠN XUÂN </h3>
                         </div>
                         <div class="columnTwoBottom">
                             <ul>
@@ -504,23 +338,23 @@
                     </div>
                     <div class="columnThree">
                         <div class="columnThreeTop">
-                            <h3> ĐÓI TÁC </h3>
+                            <h3>     THÔNG TIN </h3>
                         </div>
                         <div class="columnThreeBottom">
                             <ul>
-                                <li><a href="#"> Vận chuyển </a></li>
+                                <li><a href="#"> Tuyển dụng </a></li>
                                 <li id="transport"> <img src="images/logo.jpg" alt="logo" width="40px" height="40px">
                                     <img src="images/logo1.jpg" alt="logo" width="40px" height="40px">
                                     <img src="images/logo2.jpg" alt="logo" width="40px" height="40px">
                                 </li>
-                                <li><a href="#"> Tuyển dụng </a></li>
+                                <li><a href="#"> Liên hệ </a></li>
                                 <li><img src="images/logo3.jpg" alt="logo" width="80px" height="40px"></li>
                             </ul>
                         </div>
                     </div>
                     <div class="columnFour">
                         <div class="columnFourTop">
-                            <h3> THEO DÕI PRINTGO </h3>
+                            <h3> THEO DÕI THPT Vạn Xuân </h3>
                         </div>    
                         <div class="columnFourBottom">
                             <ul>
@@ -534,8 +368,8 @@
                     </div>              
             </div>  <hr>
             <div class="contact">
-                <p>Địa chỉ: Tầng 19, tòa nhà HCMCC, 249 A Thụy Khuê, Tây Hồ, Hà Nội. Tổng đài: <span class="span">1900 633313</span> - Email: <span class="spanAqua">sale@printgo.vn</span></p>
-                <p> Copyright © Công ty Cổ Phần <span class="spanAqua">PRINTG</span><span class="span">O</span>  Việt Nam. All rights Reserved. </p>
+                <p>Địa chỉ: Đường Yên Sở, Hoài Đức, Hà Nội. Tổng đài: <span class="span">1900 633313</span> - Email: <span class="spanAqua">thptvanxuan.edu.vn</span></p>
+                <p> Copyright © Trường THPT  <span class="spanAqua">VẠN XUÂ</span><span class="span">N</span>  Việt Nam. All rights Reserved. </p>
             </div>
         </div>
     </footer>

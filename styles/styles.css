@@ -1,3 +1,4 @@
+
 input , button {
     outline: none;
 }
@@ -13,7 +14,10 @@ input , button {
     float: left;
     margin-left: 100px;
 }
-
+.twoProductImg{
+    width: 2twoRowOne00px;
+    height: 100px;
+}
 .menu {
     float: left;
     width: 800px;
@@ -21,14 +25,14 @@ input , button {
     margin-top: 5px;
 }
 .menu .menuHeader li {
-    float: left;
+ 
     list-style: none;
     display: inline-block;
 }
 .menu .menuHeader li a {
     padding: 25px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 19px;
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
@@ -61,9 +65,12 @@ input , button {
     font-size: 30px;
 }
 .loginContact a {
-    background-color: red;
-    color: #fff;
+    
+    color: black;
     border-radius: 20px;
+}
+.loginContact a:hover{
+    color: red;
 }
 .headerBottom {
     clear: both;
@@ -75,19 +82,21 @@ input , button {
     justify-content: space-around;
     background-color: #2dbeb3;
 }
-.list {
+
+.list{
+    width: 170px;
+    height: 40px;
     background-color: #ffdb4a;
-    /* margin-right: 500px; */
-    width: 300px;
-    padding: 10px;
-    padding-left: 112px;
-    font-size: 26px;
-    margin-left: -7px;
+    padding-top: 10px;
+    padding-left: 30px;
 }
-.list a {
+.list a{
+    font-size: 25px;
+    font-weight: bold;
     text-decoration: none;
-    color: black;
 }
+
+
 .headerRight {
     display: flex;
     float: right;
@@ -98,19 +107,27 @@ input , button {
     /* margin-left: -820px; */
 }
 #searchInput {
-    width: 600px;
+    width: 400px;
     height: 30px;
     margin-top: 8px;
     border-radius: 20px;
     border: 1px solid gray;
+   
+    
+}
+.notification{
+    padding-top: 15px;
+    color: yellow;
+    font-size: 20px;
 }
 #searchButton {
-    width: 100px;
+    width: 50px;
     height: 27px;
     border-radius: 20px;
     border: 1px solid gray;
-    margin-left: -105px;
+    margin-left: -55px;
     background-color: #ffdb4a;
+    
 }
 .print {
     padding: 8px;
@@ -151,18 +168,93 @@ input , button {
 }
 .homeTop li a {
     text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
     color: black;
 }
 #design {
-    color: aqua;
+    color: #2dbeb3;
+}
+#headTitle{
+    color: red;
+
 }
 .titleProduct h2 {
-    color: #3cbeb3;
+    color: black;
     font-size: 40px;
+}
+.titleProduct{
+    
+    width: 400px;
+}
+#buttonSearch:hover{
+    background-color:#ffdb4a ;
+}
+#title1 h3{
+    text-decoration: none;
+    color: black;
+}
+#title1 h3:hover{
+    color: red;
+}
+#xem{
+    text-decoration: none;
+}
+
+.contentTwo{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.contentTwoRow{
+    clear: both;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 21%;
+}
+.notificationTwo{
+    width: 50%;
+    font-size: 20px;
+    padding-top: 4%;
+    color:blue;
+}
+.contentThreeTop{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.threeRowOne{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.contentOne{
+    display: flex;
+    justify-content: space-around;
+}
+.news{
+    width: 25%;
+    border: 2px solid gray;
+    margin-top: -10%;
+    margin-bottom: 4.5%;
+    background-color: aqua;
+}
+.newsTop{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 35%;
+    border-bottom: 1px solid;
+    background-color: aqua;
+}
+.newsBot ul li{
+    margin-top: 12%;
+    font-size: 20px;
+   
+}
+.newsBot ul li a{
+    text-decoration: none;
+    background-color: floralwhite;
+    color: red;
 }
 .rowOne {
     display: flex;
+    width: 70%;
 }
 .productOne,
 .productTwo,
@@ -186,6 +278,7 @@ input , button {
 
 #inputSearchLeft{
     width: 250px;
+    margin-left: -20px;
 }
 .searchLeft , .titleSelect{
     margin-top: 50px;
@@ -193,16 +286,22 @@ input , button {
 .contentTwoTop{
     display: flex;
     justify-content: space-around;
+   
+    width: 70%;
+    
 }
 .titleRight{
     display: contents;
 }
 .titleLeft h3{
-    margin-left: -70px;
+    margin-left: 5px;
 }
 
 .twoRowOne {
     display: flex;
+    justify-content: space-around;
+   height : 300px;
+   width: 70%;
 }
 .twoProductOne {
     margin-right: 21px;
@@ -215,7 +314,32 @@ input , button {
 #styleTitle {
     color: #fd5b4e;
 }
+.twoProductTitle{
+    margin-top: 75px;
+    text-decoration: none;
+    
+    
+}
+.titleBottom a{
+    color:rgb(0, 255, 242); ;
+}
+.twoProductTitle a{
+    text-decoration: none;   
+}
+.twoProductTitle a h3{
+    color: rgb(0, 255, 242);
+    font-size: 23px;
+}
+.twoProductTitle :hover{
+    color: red;
+}
 
+.threeproductTitle:hover{
+    color: red;
+}
+.threeproductTitle .titleDesign :hover{
+    color: red;
+}
 .threeRowOne {
     display: flex;
 }
@@ -223,8 +347,28 @@ input , button {
     margin-right: 21px;
     margin-top: 21px;
 }
+.seclectRight:hover{
+    background-color: rgb(38, 206, 228);
+}
+#selectThree:hover{
+    background-color: rgb(38, 206, 228);
+}
 .threeTopLeft{
     font-size: 40px;
+}
+.threeproductTitle h3{
+    
+    color: black;
+
+}
+.productOneImg a , .productTwo a , .productThree a{
+    text-decoration: none;
+}
+.threeproductTitle a {
+    text-decoration: none;
+}
+.threeproductTitle h3:hover{
+    color: red;
 }
 .contentThreeTop{
     display: flex;
@@ -325,4 +469,125 @@ input , button {
 }
 #transport {
     margin-left: -22px;
+}
+
+
+
+.formBox{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 2% auto;
+    background-color: rgba(255, 255, 255, 0.13);
+    padding: 5px;
+    border: 1px solid gray;
+    background-color: aliceblue;
+}
+.buttonBox{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f ;
+    border-radius: 30px;
+}
+.toggle{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 30px;
+    transition: .5s;
+}
+.input{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+    padding-left: 50px;
+}
+.inputUser{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.submitButton{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.checkBox{
+    margin: 30px 10px 30px 0;
+}
+#spanRemember{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+
+  .product3 {
+    width: 680px;
+    height: 550px;
+    position: relative;
+    margin: 2% auto;
+    background-color: rgba(255, 255, 255, 0.13);
+    padding: 5px;
+    border: 1px solid gray;
+    background-color: aliceblue;
+    
+}
+.product1 , .product2{
+    width: 680px;
+    height: 800px;
+    position: relative;
+    margin: 2% auto;
+    background-color: rgba(255, 255, 255, 0.13);
+    padding: 5px;
+    border: 1px solid gray;
+    background-color: aliceblue;
+}
+
+.commentsTop{
+    border-bottom: 1px solid;
+}
+.formBoxTwo{
+    width: 380px;
+    height: 300px;
+    position: relative;
+    margin: 2% auto;
+    background-color: rgba(255, 255, 255, 0.13);
+    padding: 5px;
+    border: 1px solid gray;
+    background-color: aliceblue;
+}
+.commentsBot{
+    margin: 5% 2%;
+    margin-left: 8%;
+}
+.send{
+    width: 90%;
+    height: 150px;
+    margin-bottom: 2%;
 }
